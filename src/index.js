@@ -1,6 +1,6 @@
 module.exports = function toReadable (number) {
     let oneToNineteen=['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen']
-    let twentyToNinety=[':)',';)','twenty','thirty','fourty','fifty','sixty','seventy','eighty','ninety']
+    let twentyToNinety=[':)',';)','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety']
     if(number<20){
         return oneToNineteen[number];
     }
